@@ -1,5 +1,6 @@
 streamlit==1.38.0
 pandas==2.2.2
-numpy==1.26.4         # para Python 3.11 va perfecto
-pyarrow==16.1.0       # opcional, acelera IO/compute
-matplotlib==3.8.4     # por el Styler
+numpy==1.26.4
+openpyxl==3.1.5
+plotly==5.23.0
+matplotlib==3.8.4     # <- requerido por pandas Styler (background_gradient)
