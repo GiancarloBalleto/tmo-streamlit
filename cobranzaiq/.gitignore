@@ -1,4 +1,4 @@
-# Logs
+# --- Logs ---
 logs
 *.log
 npm-debug.log*
@@ -7,13 +7,24 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# --- Node/Frontend ---
 node_modules
 dist
 dist-ssr
 *.local
+cobranzaiq/node_modules/
+cobranzaiq/dist/
+cobranzaiq/.vite/
 
-# Editor directories and files
-.vscode/*
+# --- Python/Streamlit ---
+__pycache__/
+*.pyc
+.venv/
+.env
+.streamlit/secrets.toml
+
+# --- Editor/OS ---
+.vscode/
 !.vscode/extensions.json
 .idea
 .DS_Store
