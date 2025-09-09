@@ -1,6 +1,6 @@
-streamlit>=1.33
-pandas>=2.0
-numpy>=1.24
-plotly>=5       # si usas plotly
-openpyxl>=3     # si cargas excels
-# agrega aquí cualquier otra librería que importes en tu .py
+streamlit==1.38.0
+pandas==2.2.2
+numpy==1.26.4
+matplotlib==3.8.4
+plotly==5.22.0      # si lo estás usando
+openpyxl==3.1.5     # opcional (si alguna vez lees Excel)
